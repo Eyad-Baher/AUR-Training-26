@@ -1,0 +1,9 @@
+go_to_goal:
+  ros__parameters:
+    TARGET_X: 10.0  # Target X coordinate for the turtle to reach
+    TARGET_Y: 10.0  # Target Y coordinate for the turtle to reach
+    KP_LINEAR: 1.5  # Proportional gain for linear velocity
+    KP_ANGULAR: 6.0  # Proportional gain for angular velocity
+    DISTANCE_TOLERANCE: 0.1  # Distance error limit to consider goal reached
+    ANGLE_TOLERANCE: 0.05  # Heading alignment threshold before moving forward
+    LOOP_RATE: 20.0  # Control loop frequency in Hz
