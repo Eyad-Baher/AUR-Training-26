@@ -6,7 +6,7 @@ img = cv2.imread(r'Phase3\task1\face.jpg')
 
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
-k_size = 5
+k_size = 7
 
 avg_blur = cv2.blur(gray,(k_size,k_size))
 median_blur = cv2.medianBlur(gray,k_size)
