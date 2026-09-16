@@ -14,7 +14,7 @@ class ShapeDetector:
         self.lower_blue = np.array([100, 50, 50])
         self.upper_blue = np.array([140, 255, 255])
 
-    def process_mask(self, mask, color_name, frame): # Added draw_color back in
+    def process_mask(self, mask, color_name, frame): 
     
         contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
