@@ -1,0 +1,21 @@
+[project]
+name = "task2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Eyad-Baher", email = "eaydbaher69@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "opencv-python>=5.0.0.93",
+    "package-name>=0.1",
+    "pyside6>=6.11.2",
+]
+
+[project.scripts]
+task2 = "task2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
