@@ -4,7 +4,6 @@ from input import Input
 from status_widget import StatusWidget
 from assets import get_asset 
 
-# Update this line inside Window.__init__:
 
 
 class Window(QMainWindow):
