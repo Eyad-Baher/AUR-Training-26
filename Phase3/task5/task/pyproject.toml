@@ -1,0 +1,19 @@
+[project]
+name = "task"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nada-osama-a", email = "nadaharraz73@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pyside6>=6.11.2",
+]
+
+[project.scripts]
+task = "task.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
